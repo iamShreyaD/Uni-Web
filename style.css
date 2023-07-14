@@ -138,7 +138,7 @@ nav .fa {
     width: 80%;
     margin: auto;
     text-align: center;
-    padding-top: 60px;
+    padding-top: 150px;
 }
 
 h1 {
@@ -182,7 +182,7 @@ h3 {
     width: 80%;
     margin: auto;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 50px;
 }
 
 .campus-col {
@@ -195,6 +195,7 @@ h3 {
 
 campus-col img {
     width: 100%;
+    display: block;
 
 }
 
@@ -228,11 +229,128 @@ campus-col img {
     bottom: 49%;
     opacity: 1
 }
-/*--------------48.19min------------*/
 
 
+/*---------------------------------------------------------------------facilities-------------------------------------------------------------------------*/
+
+.facilities {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.facilities-col {
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+}
+
+.facilities-col img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.facilities-col p{
+    padding: 0;
+}
+ .facilities-col h3 {
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: left;
+ }
 
 
+/*-------------------------------------------------------------------------------testemonials---------------------------------------------------------------------------------------*/
+
+.testemonials {
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.testemonial-col {
+    flex-basis: 44%;
+    border-radius: 20px;
+    margin-bottom: 5%;
+    text-align: left;
+    background: #fff7f7;
+    padding: 20px;
+    cursor: pointer;
+    display: block;
+}
+
+.testemonial-col img {
+    height: 90px;
+    margin-left: 5px;
+    margin-right: 10px;
+    border-radius: 0;
+}
+
+.testemonial-col p {
+    padding: 0;
+    margin-right: 0px;
+    height: 15px;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.testemonial-col h3 {
+    text-align: left;
+    font-weight: 600;
+    margin-left: 0;
+    width: 100%; 
+    white-space: nowrap;
+    margin-top: 45px;
+}
+
+/*-----------------------------------------------------------------call to action------------------------------------------------------------------------*/
+
+.cta {
+    margin: 100px auto;
+    width: 70%;
+    background-image: linear-gradient(rgba(0, 68, 124, 0.7), rgba(0,0,0,0.7)), url(https://www.utoledo.edu/engineering/images/Nitschke%20Complex%20Pano.%20Dan%20Miller%202013-12-09croppedsky2.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.cta h1 {
+    margin-bottom: 40px;
+    padding: 0;
+    color: #ffffff;
+}
+
+/*-----------------------------------------------------------------------footer------------------------------------------------------------------------------------------*/
+
+.footer {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer h4 {
+    margin-bottom: 5px;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.footer p {
+    display: block;
+    justify-content: space-between;
+    margin-top: 0;
+}
+
+.icons {
+    text-align: center;
+    color: #000000;
+    margin-top: 20px;
+}
 
 
 
