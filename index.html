@@ -4,29 +4,97 @@
         <meta name="viewport" content="with=deveice-width, initial-scale=1.0">
         <title>University Website</title>
         <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
     </head>
     <body>
         <section class="header">
             <nav>
                 <a href="index.html"><img src="https://seeklogo.com/images/U/University_of_Oxford-logo-2ACBB1AA61-seeklogo.com.png"></a>
-                <div class="nav-links">
+                <div class="nav-links" id="nav-links">
+                    <i class="fa fa-times" aria-hidden="true" onclick="hideMenu()"></i>
                     <ul>
                         <li><a href="">HOME</a></li>
                         <li><a href="">ABOUT</a></li>
                         <li><a href="">COURSE</a></li>
                         <li><a href="">BLOG</a></li>
                         <li><a href="">CONTACT</a></li>
-
                     </ul>
                 </div>
+                <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i>
             </nav>
 
             <div class="text-box">
-                <h1>Welcome to the Eduford University</h1>
+                <h1>Welcome to the University Of Oxford</h1>
                 <h2>where your success is our belief</h2>
                 <a href="" class="btn1">Visit us to know more</a>
             </div>
         </section>
+
+        <!---------------------------------------------------------------------------------course--------------------------------------------------------------------------->
+        <section class="course">
+            <h1>Courses We Offer</h1>
+            <p>Education is the most powerful weapon which you can use to change the world.</p>
+
+            <div class="row">
+                <div class="course-col">
+                    <h3>Intermediate</h3>
+                    <p>We can't wait to welcome you and for you to look round our beautiful university city, chat staff and students and find out first-hand what it's like to study here.Discover what life is really like here at Oxforde.</p>
+                </div>
+
+                <div class="course-col">
+                    <h3>Undergrad</h3>
+                    <p>We understand that you might be the direct-from-the-high-school student with an undecided major. Our Department of Exploratory Studies may help you with one when you choose the Undecided Program, where you will receive personal attention from academic advisors who will help you identify options, select classes, and choose a major.</p>
+                </div>
+                
+                <div class="course-col">
+                    <h3>Graduate</h3>
+                    <p>Whether you are returning to college after time away or not, the involvement with Graduate Student Association and other student organizations will help you thrive. Fund your degree with graduate assistantships, fellowshiops and more.</p>
+                </div>
+            </div>
+            
+        </section>
+
+        <!----------------------------------------------------------------------------------------campus------------------------------------------------------------------------>
+        <section class="campus">
+            <h1>Our Global Campus</h1>
+            <p>Education is the most powerful weapon which you can use to change the world.</p>
+            <div class="row">
+                <div class="campus-col">
+                    <img src="eduford_img\eduford_img\london.png">
+                    <div class="layer">
+                        <h3>OXFORD</h3>
+                    </div>
+                </div>
+
+                <div class="campus-col">
+                    <img src="eduford_img\eduford_img\washington.png">
+                    <div class="layer">
+                        <h3>WASHINGTON</h3>
+                    </div>
+                </div>
+
+                <div class="campus-col">
+                    <img src="eduford_img\eduford_img\newyork.png">
+                    <div class="layer">
+                        <h3>LONDON</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!------------------------------------------------------------------------JavaScript for toggle menu------------------------------------------------------------------------------>
+        <script>
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu() {
+                navLinks.style.right = "0";
+            }
+
+            function hideMenu() {
+                navLinks.style.right = "-200px";
+            }
+        </script>
     </body>
 </html>
 
