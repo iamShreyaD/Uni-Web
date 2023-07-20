@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=deveice-width, initial-scale=1.0">
+        <title>University Website</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Graduate&display=swap" rel="stylesheet">
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="https://seeklogo.com/images/U/University_of_Oxford-logo-2ACBB1AA61-seeklogo.com.png"></a>
+                <div class="nav-links" id="nav-links">
+                    <i class="fa fa-times" aria-hidden="true" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">ABOUT</a></li>
+                        <li><a href="">COURSE</a></li>
+                        <li><a href="">BLOG</a></li>
+                        <li><a href="">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i>
+            </nav>
+            <h1>About Us</h1>
+            
+        </section>
+
+        <!------------------------------------------------------------------------------About Us Content-------------------------------------------------------------------------->
+
+        <section class="about-us">
+            <div class="row">
+                <div class="about-col">
+                    <h1>We are the world's largest university</h1>
+                    <img src="eduford_img\about.jpg">
+                    <p>The University of Oxford is the oldest university in the English-speaking world, dating back to the 12th century. It is one of the world’s leading centres of scholarship, a collegiate university with a turnover of more than £1.3 billion a year.</p>
+                    <p>More than 11,700 undergraduates, 10,900 postgraduates and around 13,000 staff work across Oxford’s four academic divisions and 38 self-governing colleges and six permanent private halls. The collegiate system is at the heart of the university’s success, giving students and academics the benefits of belonging both to a large, internationally renowned institution and to a small interdisciplinary academic community.</p>
+                    <p>Oxford University ranked number 1 in the Times Higher Education (THE) World University Rankings for the second year running, and at the heart of this success is our ground-breaking research and innovation. Carried out by the university’s staff, students and alumni it has made an enormous impact on the world over the centuries. Oxford achieved the best result in the most recent assessment of research quality in UK universities, with 48% of its research rated world-class and a further 39% rated internationally excellent.</p>
+                    <p>Oxford's international profile rivals that of any university in the world, highlighted by the breadth and depth of its research collaborations and a truly global student body and academic staff. Almost 40% of its students and 41% of academic staff are from overseas. Among its alumni are current and former leaders of many countries including former US President Bill Clinton, Martha Lane Fox co-founder of lastminute.com, inventor of the World Wide Web Sir Tim Berners-Lee, and former Prime Minister of Pakistan Benazir Bhutto.</p>
+                    <p>The economy and wider society benefit from the academic prowess of the University, with £5.8Bn gross value added (GVA) flowing to the UK annually, and 50,000 jobs across the UK supported from the University’s research, teaching and enterprise activity.</p>
+                    <a href="" class="about-btn">EXPLORE NOW</a>
+                </div>
+                <div class="about-col">
+                    
+                </div>
+            </div>
+        </section>
+
+
+        <!--------------------------------------------------------------------------------------footer--------------------------------------------------------------------------->
+
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>Oxford is an independent and self-governing institution consisting of the University, its divisions, departments and faculties, and the colleges.</p>
+            
+
+            <div class="icons">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+            </div>
+        </section>
+        <!------------------------------------------------------------------------JavaScript for toggle menu------------------------------------------------------------------------------>
+        <script>
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu() {
+                navLinks.style.right = "0";
+            }
+
+            function hideMenu() {
+                navLinks.style.right = "-200px";
+            }
+        </script>
+    </body>
+</html>

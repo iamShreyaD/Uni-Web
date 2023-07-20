@@ -1,12 +1,13 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Graduate', cursive;
 }
 
 .header {
     min-height: 100vh;
     width: 100%;
-    background-image: url(https://wallpapercave.com/wp/wp2468657.jpg);
+    background-image: linear-gradient(rgba(13, 73, 122, 0.7), rgba(240, 126, 49, 0.7)), url(https://wallpapercave.com/wp/wp2468657.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -61,19 +62,19 @@ nav img {
     width: 90%;
     color:#ffffff;
     position: absolute;
-    top: 70%;
+    top: 65%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
 }
 
 .text-box h1 {
-    font-size: 55px;
+    font-size: 65px;
 }
 
 .text-box h2 {
-    font-size: 35px;
-    top: 50%;
+    font-size: 40px;
+    padding-top: 1.5%;
 }
 
 .btn1 {
@@ -82,6 +83,7 @@ nav img {
     color: #ffffff;
     border: 1px solid #ffffff;
     padding: 12px 34px;
+    margin-top: 70px;
     font-size: 18px;
     background: transparent;
     position: relative;
@@ -165,6 +167,7 @@ h3 {
     text-align: center;
     font-weight: 600;
     margin: 10px;
+    font-size: 20px;
 }
 
 .course-col:hover {
@@ -210,7 +213,7 @@ campus-col img {
 }
 
 .layer:hover {
-    background: rgba(209, 93, 93, 0.7);
+    background: rgba(253, 166, 166, 0.7);
 }
 
 .layer h3 {
@@ -303,7 +306,7 @@ campus-col img {
     margin-left: 0;
     width: 100%; 
     white-space: nowrap;
-    margin-top: 45px;
+    margin-top: 59px;
 }
 
 /*-----------------------------------------------------------------call to action------------------------------------------------------------------------*/
@@ -311,7 +314,7 @@ campus-col img {
 .cta {
     margin: 100px auto;
     width: 70%;
-    background-image: linear-gradient(rgba(0, 68, 124, 0.7), rgba(0,0,0,0.7)), url(https://www.utoledo.edu/engineering/images/Nitschke%20Complex%20Pano.%20Dan%20Miller%202013-12-09croppedsky2.jpg);
+    background-image: linear-gradient(rgba(160, 242, 248, 0.7), rgba(11, 0, 170, 0.7)), url(https://www.utoledo.edu/engineering/images/Nitschke%20Complex%20Pano.%20Dan%20Miller%202013-12-09croppedsky2.jpg);
     background-position: center;
     background-size: cover;
     border-radius: 10px;
@@ -346,24 +349,209 @@ campus-col img {
     margin-top: 0;
 }
 
-.icons {
+.icons .fa {
     text-align: center;
-    color: #000000;
-    margin-top: 20px;
+    color: #ff1100;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+}
+
+.fa-heart-o {
+    color: #ff1100;
+}
+
+/*------------------------------------------------------------------------------About Us--------------------------------------------------------------------------------------*/
+
+.sub-header {
+    height: 70vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(6, 18, 63, 0.7), rgba(4, 9, 30, 0.7)), url(https://www.collegetransitions.com/wp-content/uploads/2014/05/shutterstock_789412672-1200x675.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+
+.sub-header h1 {
+    margin-top: 250px;
+}
+
+.about-us {
+    width: 100%;
+    padding: 20px;
+    padding-left: 22%;
+}
+
+.about-col {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.about-col img {
+    width: 650px;   
+    height: 350px;
+    display: block;
+    margin-bottom: 50px;
+    padding-left: 10%;
+}
+
+.about-col h1 {
+    padding-top: 0;
+    margin-bottom: 80px;
+}
+
+.about-col p {
+    padding: 15px 0 25px;
+}
+
+.about-btn {
+    display:inline-block;
+    text-decoration: none;
+    color: #ff1100;
+    border: 1px solid #ff1100;
+    padding: 12px 34px;
+    margin-top: 70px;
+    font-size: 18px;
+    font-weight: 500;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.about-btn:hover {
+    border: 1px solid white;
+    background: #ff1100;
+    transition: 1s;
+    color: #fff;
 }
 
 
+/*----------------------------------------------------------------------Blog-Content--------------------------------------------------------------------------------------------*/
 
+.blog-content {
+    width: 100%;
+    padding: 20px;
+    padding: 0;
+}
 
+.blog-left {
+    flex-basis: 75%;
+}
 
+.blog-left img {
+    width: 90%;
+    margin-bottom: 80px;
+    height: 700px;
+}
 
+.blog-left h1 {
+    color: #222;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
 
+.blog-left p {
+    padding: 0;
+}
 
+.blog-right {
+    flex-basis: 22%;
+}
 
+.blog-right h2{
+    background: #ff1100;
+    color: white;
+    padding: 4px 0;
+    font-size: 16px;
+    margin-bottom: 30px;
+    text-align: center;
+}
 
+.blog-right div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #555;
+    padding: 8px;
+    box-sizing: border-box;
+}
 
+.comment-box {
+    border: 1px solid;
+    margin: 50px 0;
+    padding: 10px 20px;
+    margin-top: 70px;
+}
 
+.comment-box h3 {
+    text-align: left;
+}
 
+.comment-form input, .comment-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    background: #f0f0f0;
+}
+
+/*-----------------------------------------------------------------------contact us-----------------------------------------------------------------------------------------*/
+.location {
+    width: 80%;
+    margin: auto;
+    padding: 80px 0;
+}
+
+.location iframe {
+    width: 100%;
+}
+
+.contact-us {
+    width: 80%;
+    margin: auto;
+}
+
+.contact-col {
+    flex-basis: 48%;
+    margin-bottom: 30px;
+}
+
+.contact-col div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.contact-col div .fa {
+    font-size: 24px;
+    color: #ff1100;
+    margin: 10px;
+    margin-right: 30px;
+}
+
+.contact-col div p {
+    padding: 0;
+}
+
+.contact-col div h5 {
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: #000000;
+    font-weight: 400;
+}
+
+.contact-col input, .contact-col textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 15px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    outline: none;
+}
 
 
 
