@@ -378,20 +378,21 @@ campus-col img {
 }
 
 .about-us {
-    width: 100%;
-    padding: 20px;
-    padding-left: 22%;
+    width: 80%;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    margin: auto;
 }
 
 .about-col {
+    flex-basis: 48%;
     width: 100%;
-    text-align: center;
     padding: 20px 0;
 }
 
 .about-col img {
-    width: 650px;   
-    height: 350px;
+    width: 700px;   
+    height: 400px;
     display: block;
     margin-bottom: 50px;
     padding-left: 10%;
